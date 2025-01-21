@@ -1,2 +1,2 @@
-# devopslab-template
-Repositório Template para Importação do Laboratório DevOps &amp; Cloud
+# DevOps - CI / CD 
+Rep. de Estudo
