@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def pagina_inicial():
-    return "Mudando a mensagem de Teste"
+    return "Um erro aconteceu"
