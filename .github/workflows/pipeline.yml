@@ -42,7 +42,7 @@ jobs:
 
       - name: Build an image from Dockerfile
         env:
-        DOCKER_BUILDKIT: 1
+          DOCKER_BUILDKIT: 1
         run: |
           echo "Building Docker image with tag: ${{ env.tag }}"
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/devops-cicd:${{ env.tag }} .
